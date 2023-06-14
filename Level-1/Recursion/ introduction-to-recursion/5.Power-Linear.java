@@ -12,9 +12,9 @@ public class Main {
     }
 
     public static int power(int x, int n){
-        if(x < 1) return 1;
-        return n * power(x-1,n);
+        if(n < 1) return 1;
+        return x * power(x,n-1);
     }
 
 }
-// https://ide.geeksforgeeks.org/online-java-compiler/807e245e-c677-43c4-9599-479c4dccc246
+// https://ide.geeksforgeeks.org/online-java-compiler/0c6e9868-e73e-4301-95a4-2f8f2f5356c8
